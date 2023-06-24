@@ -1,0 +1,35 @@
+.App {
+    font-family: sans-serif;
+    min-height: 100vh;
+  }
+  
+  footer {
+    position: fixed;
+    background-color: rgb(61, 54, 54);
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    background-color: rgb(64, 59, 59);
+    text-align: center;
+    margin-top: auto;
+    padding: 8px;
+   
+  }
+  

@@ -1,0 +1,35 @@
+.containerText {
+    position: relative; 
+    max-width: 100%; /* Maximum width */
+    margin: 0px; /* Center it */
+    max-height: 100%;
+    left: 100;
+    top: 100px;
+  }
+  
+  .containerText .contentText {
+    position: absolute; /* Position the background text */
+    top:10px ; /* At the bottom. Use top:0 to append it to the top */
+    left: 100px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 200px; /* Full width */
+    height: 200px;
+    padding-left:50px; /* Some padding */
+    padding-right: 50px;
+    padding-top:100px;
+    padding-bottom: 0px;
+  }
+  
+ h1Welcome {
+    font-size: 2.0em;
+    line-height: 1.1;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+
+
+  }
+
+ 
+ 
